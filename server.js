@@ -2,7 +2,7 @@ const { animals } = require('./data/animals');
 
 const express=require("express");
 
-const PORT = 443;
+const PORT = process.env.PORT || 3001;
 
 const app=express();
 
